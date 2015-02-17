@@ -1,12 +1,13 @@
 require 'spec_helper'
 
-feature 'Creating Pessoas' do
-  scenario "can create a pessoa" do
+feature 'Creating Elemento' do
+  scenario "can create a elemento" do
     visit '/'
-    click_link 'New Pessoa'
-    fill_in 'Name', with: 'Mardem'
-    click_button 'Create Pessoa'
-    expect(page).to have_content('Project has been created.')
+    click_link 'New Elemento'
+    fill_in 'Alcunha', with: 'sapo'
+    click_button 'Create Elemento'
+    expect(page).to have_content('Novo Elemento inserido.')
    end
 end
+
 
