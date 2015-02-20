@@ -1,0 +1,10 @@
+<h2>New Elemento <h2>
+<%= form_for(@elemento) do |f| %>
+  <p>
+    <%= f.label :alcunha %> <br/>
+    <%= f.text_field :alcunha %>
+  </p>
+
+  <%= f.submit %>
+<% end %>
+

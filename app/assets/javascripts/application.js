@@ -13,11 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= reqire addthis_widget
+
 //= reqire bootstrap
-//= reqire bootstrap.touchspin
-//= reqire jquery.blImageCenter
-//= reqire jquery.bxslider.min
-//= require mimity
-//= require smoothproducts.min
+
 //= require_tree .

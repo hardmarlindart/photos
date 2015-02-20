@@ -1,13 +1,11 @@
 require 'spec_helper'
 
-feature 'Creating Elemento' do
+feature 'Creating Elementos' do
   scenario "can create a elemento" do
     visit '/'
     click_link 'New Elemento'
-    fill_in 'Alcunha', with: 'sapo'
+    fill_in 'Alcunha', with: 'Sapo'
     click_button 'Create Elemento'
-    expect(page).to have_content('Novo Elemento inserido.')
-   end
+     expect(page).to have_content('Elemento Criado.')
+  end
 end
-
-
