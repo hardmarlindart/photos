@@ -1,6 +1,6 @@
 class ElementosController < ApplicationController
   def index
-    @elementos = Elemento.all
+    @elementos = Elemento.page(params[:page]).per(6)
   end
 
   def new

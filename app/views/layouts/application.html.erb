@@ -38,24 +38,15 @@
     </div>
  <% end %>
 
-
-
     <div class="container main-container">
-        
-
-        	<div class="clearfix visible-sm"></div>
-			<!-- Featured -->
-        	<div class="col-lg-9 col-md-9 col-sm-12">
-        		<div class="col-lg-12 col-sm-12">
-            		<span class="title">FOTOS</span>
-            		<%= yield %>
-            	</div>
-	       </div>
-        	<!-- End Featured -->
-        	<%= render 'layouts/pagination' %>
-        	<div class="clearfix visible-sm"></div>
-        </div>
-	</div>
+        <div class="clearfix visible-sm"></div>
+		<!-- Featured -->
+        <div class="col-lg-9 col-md-9 col-sm-12">     	
+    			<%= yield %>
+	    </div>
+        <!-- End Featured -->
+        <div class="clearfix visible-sm"></div>
+    </div>	
 <%= render 'layouts/footer' %>	   
 </body>
 </html>

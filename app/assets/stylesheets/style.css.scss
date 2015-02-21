@@ -246,22 +246,7 @@ footer .copyright{
 .thumbnail:hover{
 	box-shadow: 0 0 10px 1px #f1f1f1;
 }
-.catalogue-pagination{
-	margin: 0;
-	margin-bottom: 40px;
-	font-family: 'open_sanscondensed_light';
-}
-.catalogue-pagination li.disabled:hover a{
-	cursor: default;
-}
-.catalogue-pagination li a{
-	-ms-transition: all 100ms ease-in-out 0s ;
-	-moz-transition: all 100ms ease-in-out 0s ;
-	-webkit-transition: all 100ms ease-in-out 0s ;
-	-o-transition: all 100ms ease-in-out 0s ;
-	transition: all 100ms ease-in-out 0s ;
-	padding: 3px 12px;
-}
+
 .back-top{
 	display: none;
 	position: fixed;
